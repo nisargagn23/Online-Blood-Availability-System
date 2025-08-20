@@ -31,5 +31,3 @@ Future Enhancement:
 * Add an online blood request and donor registration feature
 * Provide notifications when stock is low
 * Deploy on a cloud server for public access.
-
-hort version (just overview, tech stack, run steps)** so recruiters can quickly glance through, while keeping this detailed one as the main?
