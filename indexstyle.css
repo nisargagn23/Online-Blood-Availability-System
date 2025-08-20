@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.main{
+    width:100%;
+    background: linear-gradient(to top, rgba(187, 185, 185, 0.5)50%,rgba(187, 185, 185, 0.5)50%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height:109vh;
+}
+.navbar{
+    border-bottom: 1px solid red;
+    width:100%;
+    height: 100px;
+}
+.menu{
+    width: 500px;
+    float:left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style-type:none;
+    margin-left: 80px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color:rgb(232, 45, 110);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition:0.4s ease-in-out;
+}
+ul li a:hover{
+    color:azure;
+}
+.regis{
+    width: 70px;
+    float: right;
+    height: 50px;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+.login{
+    border:2px solid white;
+    background-color: white;
+    color: red;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 7px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+
+.content .para,
+.content .quote,
+.content .say {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+.content p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.content .para p,
+.content .quote p,
+.content .say p {
+    font-style: italic;
+    font-size: 20px;
+    color: #d32f2f;
+}
+
